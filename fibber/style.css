@@ -1,0 +1,164 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+}
+
+section .layoutimage{
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+
+section .layoutimage img{
+    position:absolute;
+    top:0;
+    left:-10;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+section .logincontent{
+    position: absolute;
+    display: flex;
+    left:50%;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .logincontent .form{
+    width: 60%;
+}
+
+section .logincontent .form h1{
+    color: darkgoldenrod;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid darkgoldenrod;
+    display: inline-block;
+    letter-spacing:1px ;
+}
+
+section .logincontent .form .input{
+    margin-bottom: 20px;
+}
+
+section .logincontent .form .input span{
+    font-size:16px ;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: ghostwhite;
+    font-weight: 300;
+    letter-spacing:1px ;
+}
+
+section .logincontent .form .input input{
+    width:100%;
+    padding:10px 20px ;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid darkgoldenrod;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:darkgoldenrod;
+    background: transparent;
+    border-radius: 40px;
+}
+
+section .logincontent .form .input input[type="submit"]{
+    background: goldenrod;
+    color:black;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section .logincontent .form .input input[type="submit"]:hover{
+    background:darkgoldenrod;
+}
+
+section .logincontent .form .remember{
+    margin-bottom: 10px;
+    color:black;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+section .logincontent .form .input p{
+    color: black;
+    font-size: 12px;
+}
+
+section .logincontent .form .input p a{
+    color: darkgoldenrod;
+    font-size: 12px;
+}
+
+body{
+    font-family:'Azeret Mono', monospace;
+}
+
+.navigation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+
+.side{
+    width:50px;
+    height:100%;
+    background-color: black;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+/*table {
+	max-width: 800px;
+    left: 25%;
+    right: 25%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+thead th {
+    background: black;
+    color:goldenrod;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+tr {
+    background: #909090;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+th, td {
+    font-size:16px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}*/
