@@ -16,8 +16,8 @@
 
 .smiley3 {
     position: absolute;
-    top: 240px;
-    left: 70px;
+    top: 80px;
+    left: 25px;
 }
 
 .button001 {
@@ -47,17 +47,17 @@
 }
 
 #marker1 {
-    color:black;
+    color:transparent;
     font-size: 125%;
 }
 
 #marker2 {
-    color:black;
+    color:transparent;
     font-size: 125%;
 }
 
 #marker3 {
-    color:black;
+    color:transparent;
     font-size: 125%;
 }
 
@@ -75,3 +75,38 @@
     cursor: pointer;
     width: 178px;
 }
+
+div {
+    position:absolute;
+    width:600px; 
+    height:600px
+  }
+  
+  #left{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100vh;
+      background-color: transparent;
+  }
+  
+  #right {
+      position: absolute;
+      left: 50%;
+      width: 100%;
+      top: 0; 
+      height: 100vh;
+      background-color: grey;
+  }
+  
+  body{
+      font-family:'Azeret Mono', monospace;
+  }
+  
+  img{
+      border-radius: 50px;
+      width: 50x;
+      height: 50px;
+      position: absolute;
+  }
