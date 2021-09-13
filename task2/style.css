@@ -1,0 +1,112 @@
+.position {
+    position: relative;
+}
+
+.smiley1 {
+    position: absolute;
+    top: 135px;
+    left: 80px;
+}
+
+.smiley2 {
+    position: absolute;
+    top: 205px;
+    left: 30px;
+}
+
+.smiley3 {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+}
+
+.button001 {
+    background-color: transparent;
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.button002 {
+    background-color: transparent;
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.button003 {
+    background-color: transparent;
+    border: 1px solid transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.hide001 {
+    background-color: white;
+    border: 1px solid white;
+}
+
+#marker1 {
+    color:transparent;
+    font-size: 125%;
+}
+
+#marker2 {
+    color:transparent;
+    font-size: 125%;
+}
+
+#marker3 {
+    color:transparent;
+    font-size: 125%;
+}
+
+.blue001 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 178px;
+}
+
+div {
+    position:absolute;
+    width:600px; 
+    height:600px
+  }
+  
+  #left{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100vh;
+      background-color: transparent;
+  }
+  
+  #right {
+      position: absolute;
+      left: 50%;
+      width: 100%;
+      top: 0; 
+      height: 100vh;
+      background-color: grey;
+  }
+  
+  body{
+      font-family:'Azeret Mono', monospace;
+  }
+  
+  img{
+      border-radius: 50px;
+      width: 50x;
+      height: 50px;
+      position: absolute;
+  }
